@@ -25,7 +25,7 @@ const list = document.getElementById("interventionList");
 
 
 btnForm.addEventListener("click", () => {
-  if (formUrl) window.open(formUrl, "_blank", "noonpener","noreferrer");
+  if (formUrl) window.open(formUrl, "_blank");
 });
 
 
@@ -86,5 +86,5 @@ list.addEventListener("click", (e) => {
   if (!btn) return;
   const id = btn.id;
   const url = urlById[id];
-  if (url) window.open(url, "_blank", "noonpener","noreferrer");
+  if (url) window.open(url, "_blank");
 });

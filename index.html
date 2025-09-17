@@ -2,20 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Amiante • Accès rapide</title>
+  <title>Accès amiante</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Bande supérieure -->
   <header class="topbar">
-    <!-- Remplace le src si besoin -->
     <img src="logo_amiante.png" alt="Logo amiante" class="logo" />
   </header>
 
   <main class="container">
     <section class="panel" role="region" aria-labelledby="titre">
-      <h1 id="titre" class="sr-only">Accès aux ressources amiante</h1>
+      <h1 id="titre" class="title">Accès aux ressources amiantes</h1>
+      <p class="subline">Assurez vous que votre téléphone est bien enrôlé</p>
 
       <div class="actions">
         <button id="btnForm" class="btn btn-primary" type="button">
@@ -29,16 +29,28 @@
         </button>
       </div>
 
-      <!-- Menu déroulant des interventions -->
+      <!-- Menu déroulant des interventions (créé SANS boucle) -->
       <div id="menuFiches" class="menu" hidden aria-hidden="true">
-        <ul id="interventionList" class="menu-list" role="list"></ul>
+        <ul id="interventionList" class="menu-list" role="list">
+          <li><button type="button" id="interv1"  class="menu-item">Intervention 1</button></li>
+          <li><button type="button" id="interv2"  class="menu-item">Intervention 2</button></li>
+          <li><button type="button" id="interv3"  class="menu-item">Intervention 3</button></li>
+          <li><button type="button" id="interv4"  class="menu-item">Intervention 4</button></li>
+          <li><button type="button" id="interv5"  class="menu-item">Intervention 5</button></li>
+          <li><button type="button" id="interv6"  class="menu-item">Intervention 6</button></li>
+          <li><button type="button" id="interv7"  class="menu-item">Intervention 7</button></li>
+          <li><button type="button" id="interv8"  class="menu-item">Intervention 8</button></li>
+          <li><button type="button" id="interv9"  class="menu-item">Intervention 9</button></li>
+          <li><button type="button" id="interv10" class="menu-item">Intervention 10</button></li>
+          <li><button type="button" id="interv11" class="menu-item">Intervention 11</button></li>
+          <li><button type="button" id="interv12" class="menu-item">Intervention 12</button></li>
+          <li><button type="button" id="interv13" class="menu-item">Intervention 13</button></li>
+          <li><button type="button" id="interv14" class="menu-item">Intervention 14</button></li>
+          <li><button type="button" id="interv15" class="menu-item">Intervention 15</button></li>
+        </ul>
       </div>
     </section>
   </main>
-
-  <footer class="footer">
-    <p>© 2025 — Ressources amiante</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>

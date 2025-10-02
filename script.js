@@ -1,30 +1,30 @@
 
 const formUrl = "https://prev2s.grdf.fr/form/choice";
 
-const interv1Url  = "";
-const interv2Url  = "";
-const interv2_1Url = "";
-const interv2_2Url = "";
-const interv3Url  = "";
-const interv3_1Url = "";
-const interv3_2Url = "";
-const interv3_3Url = "";
-const interv3_4Url = "";
-const interv4Url  = "";
-const interv5Url  = "";
-const interv6Url  = "";
-const interv7Url  = "";
-const interv8Url  = "";
-const interv9Url  = "";
-const interv10Url = "";
+const interv0Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Chimique%20(amiante,%20CO,...)/Amiante/Modes%20Op%C3%A9ratoires%20-%20Vidéos/Amiante,%20Mode%20Op%C3%A9ratoire%20-%20La%20totalité%20v05062021.pdf#page=71";
+const interv1Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2011%2C%20Percement%20d%27enrob%C3%A9%20amiante%20pour%20localisation%20de%20fuites%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
 
+const interv2_1Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2009%2C%20D%C3%A9pose%20de%20compteur%2C%20r%C3%A9gulateur%2C%20robinet%20BP%20ou%20autres%20accessoires%20de%20tuyauterie%20gaz%20avec%20joint%20amiante%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv2_2Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2010%2C%20D%C3%A9pose%20de%20joint%20plat%20gaz%20de%20brides%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+
+const interv3_1Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2001%2C%20Per%C3%A7age%20de%20parois%20%C3%A0%20vitesse%20la%20%2B%20r%C3%A9duite%20possible%20avec%20humidification%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv3_2Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2001bis%2C%20Per%C3%A7age%20traversant%20de%20parois%20%C3%A0%20vitesse%20la%20plus%20r%C3%A9duite%20possible%20%C3%A0%20travers%20un%20SAS%20de%20gel%20hydrique%20%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv3_3Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2002%2C%20Percement%20de%20parois%20au%20travers%20une%20poche%20de%20gel%20hydrique%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv3_4Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2002bis%2C%20Per%C3%A7age%20de%20parois%20au%20travers%20une%20capsule%20de%20gel%20hydrique%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+
+const interv4Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2007%2C%20Casse%20de%20fourreau%20en%20amiante%20ciment%20en%20milieu%20ext%C3%A9rieur%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv5Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2008%2C%20Intervention%20dans%20des%20niches%20en%20fibrociments%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv6Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2008bis%2C%20Remplacement%20d%27une%20niche%20en%20fibrociments%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
+const interv7Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Chimique%20(amiante,%20CO,...)/Amiante/Modes%20Op%C3%A9ratoires%20-%20Vidéos/Amiante,%20Mode%20Op%C3%A9ratoire%20-%20La%20totalité%20v05062021.pdf#page=53";
+const interv8Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Chimique%20(amiante,%20CO,...)/Amiante/Modes%20Op%C3%A9ratoires%20-%20Vidéos/Amiante,%20Mode%20Op%C3%A9ratoire%20-%20La%20totalité%20v05062021.pdf#page=57";
+const interv9Url  = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Chimique%20(amiante,%20CO,...)/Amiante/Modes%20Op%C3%A9ratoires%20-%20Vidéos/Amiante,%20Mode%20Op%C3%A9ratoire%20-%20La%20totalité%20v05062021.pdf#page=61";
+const interv10Url = "https://grdf.sharepoint.com/teams/Prevention_Sante_Securite_de_la_DR_IDF/Maitrise%20des%20risques/Forms/AllItems.aspx?viewid=961d002f%2D11d6%2D46fc%2D912e%2D198da788eb23&FolderCTID=0x0120006FFC4DDA3A4CF443BC5A9747F653DF17&id=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os%2FAmiante%2C%20Mode%20Op%C3%A9ratoire%20%2D%20MO%2013%2C%20D%C3%A9garnissage%20d%27une%20parois%20contenant%20de%20l%27amiante%2Epdf&parent=%2Fteams%2FPrevention%5FSante%5FSecurite%5Fde%5Fla%5FDR%5FIDF%2FMaitrise%20des%20risques%2FChimique%20%28amiante%2C%20CO%2C%2E%2E%2E%29%2FAmiante%2FModes%20Op%C3%A9ratoires%20%2D%20Vid%C3%A9os";
 
 
 const btnForm = document.getElementById("btnForm");
 const btnToggleMenu = document.getElementById("btnToggleMenu");
 const menu = document.getElementById("menuFiches");
 const list = document.getElementById("interventionList");
-const menuBody = menu.querySelector('.menu-body'); // wrapper animé (doit exister dans le HTML ci-dessus)
 
 
 btnForm.addEventListener("click", () => {
@@ -39,40 +39,33 @@ function openMenu() {
   menu.setAttribute("aria-hidden", "false");
   btnToggleMenu.setAttribute("aria-expanded", "true");
 
-  // anime la hauteur de menuBody
-  menuBody.style.height = "0px";
-  menuBody.style.transition = "height .25s ease";
+  menu.style.height = "0px";
+  menu.style.transition = "height .25s ease";
   requestAnimationFrame(() => {
-    menuBody.style.height = menuBody.scrollHeight + "px";
+    menu.style.height = menu.scrollHeight + "px";
   });
 
-  menuBody.addEventListener("transitionend", function onEnd() {
-    menuBody.style.height = "auto";
-    menuBody.style.transition = "";
-    menuBody.removeEventListener("transitionend", onEnd);
+  menu.addEventListener("transitionend", function onEnd() {
+    menu.style.height = "auto";
+    menu.removeEventListener("transitionend", onEnd);
   });
 
   isOpen = true;
 }
 
 function closeMenu() {
-  // ferme tout d'abord les sous-menus ouverts
-  document.querySelectorAll('.submenu').forEach(s => s.hidden = true);
-  document.querySelectorAll('.menu-item.has-arrow').forEach(b => b.setAttribute('aria-expanded','false'));
-
-  // anime la réduction de menuBody puis cache le wrapper
-  menuBody.style.height = menuBody.scrollHeight + "px";
-  menuBody.style.transition = "height .25s ease";
+  const full = menu.scrollHeight;
+  menu.style.height = full + "px";
+  menu.style.transition = "height .25s ease";
   requestAnimationFrame(() => {
-    menuBody.style.height = "0px";
+    menu.style.height = "0px";
   });
 
-  menuBody.addEventListener("transitionend", function onEnd() {
+  menu.addEventListener("transitionend", function onEnd() {
     menu.hidden = true;
     menu.setAttribute("aria-hidden", "true");
     btnToggleMenu.setAttribute("aria-expanded", "false");
-    menuBody.style.transition = "";
-    menuBody.removeEventListener("transitionend", onEnd);
+    menu.removeEventListener("transitionend", onEnd);
   });
 
   isOpen = false;
@@ -84,9 +77,10 @@ btnToggleMenu.addEventListener("click", () => {
 
 
 const urlById = {
+  interv0:  interv0Url,
   interv1:  interv1Url,
-  interv2:  interv2Url,  interv2_1:  interv2_1Url,  interv2_2:  interv2_2Url,
-  interv3:  interv3Url,  interv3_1:  interv2_1Url,  interv3_2:  interv2_2Url,  interv3_3:  interv3_4Url,
+  interv2_1:  interv2_1Url,  interv2_2:  interv2_2Url,
+  interv3_1:  interv2_1Url,  interv3_2:  interv2_2Url,  interv3_3:  interv3_4Url,
   interv4:  interv4Url,
   interv5:  interv5Url,
   interv6:  interv6Url,
@@ -103,50 +97,3 @@ list.addEventListener("click", (e) => {
   const url = urlById[id];
   if (url) window.open(url, "_blank");
 });
-
-// basique : ouvre/ferme un sous-menu, ferme les autres
-function toggleSubmenu(btnId, submenuId) {
-  const btn = document.getElementById(btnId);
-  const submenu = document.getElementById(submenuId);
-  if (!btn || !submenu) return;
-
-  btn.addEventListener("click", (e) => {
-    e.stopPropagation(); // empêche le handler du parent d'ouvrir une url
-    const expanded = btn.getAttribute("aria-expanded") === "true";
-
-    // fermer autres sous-menus
-    document.querySelectorAll('.submenu').forEach(s => { if (s !== submenu) s.hidden = true; });
-    document.querySelectorAll('.menu-item.has-arrow').forEach(b => { if (b !== btn) b.setAttribute('aria-expanded','false'); });
-
-    if (expanded) {
-      btn.setAttribute("aria-expanded","false");
-      submenu.hidden = true;
-    } else {
-      btn.setAttribute("aria-expanded","true");
-      submenu.hidden = false;
-
-      // si le sous-menu dépasse la fenêtre à droite, on le positionne à gauche
-      const rect = submenu.getBoundingClientRect();
-      if (rect.right > window.innerWidth) {
-        submenu.style.left = 'auto';
-        submenu.style.right = '100%';
-        submenu.style.marginLeft = '0';
-        submenu.style.marginRight = '8px';
-      } else {
-        submenu.style.left = '';
-        submenu.style.right = '';
-        submenu.style.marginRight = '';
-      }
-    }
-  });
-}
-
-toggleSubmenu("interv2", "submenu-interv2");
-toggleSubmenu("interv3", "submenu-interv3");
-
-// fermer sous-menus au clic à l'extérieur
-document.addEventListener("click", () => {
-  document.querySelectorAll('.submenu').forEach(s => s.hidden = true);
-  document.querySelectorAll('.menu-item.has-arrow').forEach(b => b.setAttribute('aria-expanded','false'));
-});
-

@@ -142,3 +142,38 @@ body{
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important;}
 }
+
+/* Sous-menus */
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 6px;
+  background: #fafbff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 8px;
+  display: grid;
+  gap: 8px;
+  z-index: 10;
+  min-width: 240px;
+}
+
+/* Flèche indicatrice */
+.submenu-arrow {
+  float: right;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  padding: 4px;
+  margin-left: 6px;
+  transform: rotate(-45deg);
+  transition: transform .2s ease;
+}
+
+.menu-item[aria-expanded="true"] .submenu-arrow {
+  transform: rotate(45deg);
+}

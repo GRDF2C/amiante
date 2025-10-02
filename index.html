@@ -29,23 +29,39 @@
       </div>
 
       <div id="menuFiches" class="menu" hidden aria-hidden="true">
-        <p class="menu-hint">Sélectionnez l’intervention en cours</p>
+        <p class="menu-hint">Sélectionnez l'intervention en cours</p>
         <ul id="interventionList" class="menu-list" role="list">
-          <li><button type="button" id="interv1"  class="menu-item">MO 01</button></li>
-          <li><button type="button" id="interv2"  class="menu-item">MO 01bis</button></li>
-          <li><button type="button" id="interv3"  class="menu-item">Intervention 3</button></li>
-          <li><button type="button" id="interv4"  class="menu-item">Intervention 4</button></li>
-          <li><button type="button" id="interv5"  class="menu-item">Intervention 5</button></li>
-          <li><button type="button" id="interv6"  class="menu-item">Intervention 6</button></li>
-          <li><button type="button" id="interv7"  class="menu-item">Intervention 7</button></li>
-          <li><button type="button" id="interv8"  class="menu-item">Intervention 8</button></li>
-          <li><button type="button" id="interv9"  class="menu-item">Intervention 9</button></li>
-          <li><button type="button" id="interv10" class="menu-item">Intervention 10</button></li>
-          <li><button type="button" id="interv11" class="menu-item">Intervention 11</button></li>
-          <li><button type="button" id="interv12" class="menu-item">Intervention 12</button></li>
-          <li><button type="button" id="interv13" class="menu-item">Intervention 13</button></li>
-          <li><button type="button" id="interv14" class="menu-item">Intervention 14</button></li>
-          <li><button type="button" id="interv15" class="menu-item">Intervention 15</button></li>
+          <li><button type="button" id="interv1"  class="menu-item">Perçage d'enrobé amianté pour localisation de fuite</button></li>
+          <li class="has-submenu">
+            <button type="button" id="interv2" class="menu-item has-arrow">
+              Dépose de joints
+              <span class="submenu-arrow"></span>
+            </button>
+            <ul id="submenu-interv2" class="submenu" hidden>
+              <li><button type="button" id="interv2_1" class="menu-item">Compteur gaz</button></li>
+              <li><button type="button" id="interv2_2" class="menu-item">Plats gaz de brides</button></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <button type="button" id="interv3" class="menu-item has-arrow">
+              Percement dans des parois pouvant être amiantées (Y compris remplacement de platine de compteur gaz par perçage)
+              <span class="submenu-arrow"></span>
+            </button>
+            <ul id="submenu-interv3" class="submenu" hidden>
+              <li><button type="button" id="interv3_1" class="menu-item">Vitesse la plus réduite possible avec humidification</button></li>
+              <li><button type="button" id="interv3_2" class="menu-item">Vitesse la plus réduite possible à travers du gel hydrique</button></li>
+              <li><button type="button" id="interv3_3" class="menu-item">Vitesse la plus réduite possible à travers une poche de gel hydrique</button></li>
+              <li><button type="button" id="interv3_4" class="menu-item">A travers une capsule de percement et du gel hydrique</button></li>
+            </ul>
+          </li>
+          <li><button type="button" id="interv4"  class="menu-item">Casse de fourreaux en Amiante-Ciment en milieu extérieur</button></li>
+          <li><button type="button" id="interv5"  class="menu-item">Intervention dans des niches en Fibrociment</button></li>
+          <li><button type="button" id="interv6"  class="menu-item">Remplacement de niche en Fibrociment</button></li>
+          <li><button type="button" id="interv7"  class="menu-item">Interventions sur mastics d'étanchéité Amiante </button></li>
+          <li><button type="button" id="interv8"  class="menu-item">Dépose d'une portion de tuyauterie de CI-CM contenant une ou plusieurs zones avec présence de mastic amianté</button></li>
+          <li><button type="button" id="interv9"  class="menu-item">Remplacement mastic étanchéité amianté par du mastic époxy</button></li>
+          <li><button type="button" id="interv10" class="menu-item">Dégarnissage de paroi</button></li>
+
         </ul>
       </div>
     </section>

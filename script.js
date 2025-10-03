@@ -95,7 +95,7 @@ const urlById = {
   interv2:  interv2Url,
   interv2_1:  interv2_1Url,  interv2_2:  interv2_2Url,
   interv3:  interv3Url,
-  interv3_1:  interv2_1Url,  interv3_2:  interv2_2Url,  interv3_3:  interv3_4Url,
+  interv3_1:  interv3_1Url,  interv3_2:  interv3_2Url,  interv3_3:  interv3_3Url, interv3_4:  interv3_4Url,
   interv4:  interv4Url,
   interv5:  interv5Url,
   interv6:  interv6Url,
@@ -112,7 +112,7 @@ if (list) {
     const id = btn.id;
     const url = urlById[id];
     if (url) {
-      (id == interv2 || id == interv3) ? window.open(url) : window.open(url, "_blank");
+      (id == "interv2" || id == "interv3") ? window.open(url) : window.open(url, "_blank");
     }
   });
 }

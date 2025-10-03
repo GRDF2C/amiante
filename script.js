@@ -24,8 +24,6 @@ const interv8Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https
 const interv9Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=61";
 const interv10Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=66";
 
-const retourUrl = "https://grdf2c.github.io/amiante/"
-
 const btnForm = document.getElementById("btnForm");
 const btnToggleMenu = document.getElementById("btnToggleMenu");
 const menu = document.getElementById("menuFiches");

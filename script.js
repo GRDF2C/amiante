@@ -4,7 +4,7 @@ const formUrl = "https://prev2s.grdf.fr/form/choice";
 const interv0Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=71";
 const interv1Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=48";
 
-const interv2Url = "https://grdf2c.github.io/amiante/index2.htmll"
+const interv2Url = "https://grdf2c.github.io/amiante/index2.html"
 
 const interv2_1Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=40";
 const interv2_2Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=44";

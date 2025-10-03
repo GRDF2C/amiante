@@ -4,12 +4,12 @@ const formUrl = "https://prev2s.grdf.fr/form/choice";
 const interv0Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=71";
 const interv1Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=48";
 
-const interv2Url = "/index2.html"
+const interv2Url = "https://grdf2c.github.io/amiante/index2.htmll"
 
 const interv2_1Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=40";
 const interv2_2Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=44";
 
-const interv3Url = "/index3.html"
+const interv3Url = "https://grdf2c.github.io/amiante/index3.html"
   
 const interv3_1Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=3";
 const interv3_2Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=8";
@@ -23,6 +23,8 @@ const interv7Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https
 const interv8Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=57";
 const interv9Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=61";
 const interv10Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=66";
+
+const retourUrl = "https://grdf2c.github.io/amiante/"
 
 const btnForm = document.getElementById("btnForm");
 const btnToggleMenu = document.getElementById("btnToggleMenu");

@@ -37,11 +37,11 @@ if (btnBack) {
 }
     
 
-
-btnForm.addEventListener("click", () => {
-  if (formUrl) window.open(formUrl, "_blank");
-});
-
+if (btnForm) {
+  btnForm.addEventListener("click", () => {
+    if (formUrl) window.open(formUrl, "_blank");
+  });
+}
 
 let isOpen = false;
 
@@ -82,9 +82,11 @@ function closeMenu() {
   isOpen = false;
 }
 
-btnToggleMenu.addEventListener("click", () => {
-  isOpen ? closeMenu() : openMenu();
-});
+if (btnToggleMenu) {
+  btnToggleMenu.addEventListener("click", () => {
+    isOpen ? closeMenu() : openMenu();
+  });
+}
 
 
 const urlById = {
@@ -103,10 +105,14 @@ const urlById = {
   interv10: interv10Url,
 };
 
-list.addEventListener("click", (e) => {
-  const btn = e.target.closest(".menu-item");
-  if (!btn) return;
-  const id = btn.id;
-  const url = urlById[id];
-  if (url) window.open(url, "_blank");
-});
+if (list) {
+  list.addEventListener("click", (e) => {
+    const btn = e.target.closest(".menu-item");
+    if (!btn) return;
+    const id = btn.id;
+    const url = urlById[id];
+    if (url) {
+      (id == interv2 || id == interv3) ? window.open(url); : window.open(url, "_blank");
+    }
+  });
+}

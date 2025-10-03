@@ -4,8 +4,12 @@ const formUrl = "https://prev2s.grdf.fr/form/choice";
 const interv0Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=71";
 const interv1Url  = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=48";
 
+const interv2Url = "/index2.html"
+
 const interv2_1Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=40";
 const interv2_2Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=44";
+
+const interv2Url = "/index3.html"
   
 const interv3_1Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=3";
 const interv3_2Url = "https://mozilla.github.io/pdf.js/web/viewer.html?file=https://grdf2c.github.io/amiante/Docs/mo-amiante.pdf#page=8";
@@ -78,7 +82,9 @@ btnToggleMenu.addEventListener("click", () => {
 const urlById = {
   interv0:  interv0Url,
   interv1:  interv1Url,
+  interv2:  interv2Url,
   interv2_1:  interv2_1Url,  interv2_2:  interv2_2Url,
+  interv3:  interv3Url,
   interv3_1:  interv2_1Url,  interv3_2:  interv2_2Url,  interv3_3:  interv3_4Url,
   interv4:  interv4Url,
   interv5:  interv5Url,

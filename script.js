@@ -28,6 +28,14 @@ const btnForm = document.getElementById("btnForm");
 const btnToggleMenu = document.getElementById("btnToggleMenu");
 const menu = document.getElementById("menuFiches");
 const list = document.getElementById("interventionList");
+const btnBack = document.getElementById("btnBack");
+
+if (btnBack) {
+  btnBack.addEventListener("click", (e) => {
+    window.location.href="https://grdf2c.github.io/amiante/";
+  });
+}
+    
 
 
 btnForm.addEventListener("click", () => {

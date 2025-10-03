@@ -112,7 +112,7 @@ if (list) {
     const id = btn.id;
     const url = urlById[id];
     if (url) {
-      (id == "interv2" || id == "interv3") ? window.open(url) : window.open(url, "_blank");
+      (id == "interv2" || id == "interv3") ? window.open(url, "_self") : window.open(url, "_blank");
     }
   });
 }

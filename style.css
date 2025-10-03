@@ -138,6 +138,40 @@ body{
 .menu-item:focus{ outline:none; box-shadow:var(--focus); }
 .menu-item:active{ transform:scale(.99); }
 
+/* Barre de titre avec bouton retour */
+.title-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  background: #eef0f7;
+  border: 1px solid #d1d5db;
+  color: #1b1b1b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s ease;
+}
+
+.back-btn:hover {
+  background: #e3e6f2;
+}
+
+.back-btn:focus {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+
 /* Réduction animations si demandé */
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important;}

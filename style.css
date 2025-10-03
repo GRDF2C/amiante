@@ -1,4 +1,3 @@
-/* Mobile-first, bande supérieure #1A095C, sans styles "pending" */
 :root{
   --primary:#240E78;
   --bg:#f7f8fb;
@@ -22,7 +21,6 @@ body{
   line-height:1.5;
 }
 
-/* Bande supérieure */
 .topbar{
   background:var(--primary);
   padding: max(env(safe-area-inset-top), 12px) var(--space);
@@ -32,7 +30,6 @@ body{
   height:48px; width:auto; display:inline-block;
 }
 
-/* Contenu centré */
 .container{
   min-height: calc(100dvh - 96px);
   display:grid;
@@ -58,7 +55,6 @@ body{
   text-align: center;
 }
 
-/* Boutons principaux */
 .actions{
   display:grid;
   gap:12px;
@@ -82,7 +78,6 @@ body{
 .btn-secondary{ background:#eef0f7; color:#111827; }
 .btn-secondary:hover{ background:#e3e6f2; }
 
-/* Chevron indicateur */
 .chevron{
   display:inline-block;
   margin-left:8px;
@@ -96,7 +91,6 @@ body{
   transform: rotate(-135deg) translateY(2px);
 }
 
-/* Menu déroulant */
 .menu{
   overflow:hidden;
   border-radius:12px;
@@ -120,7 +114,6 @@ body{
   border-bottom: 1px solid #e5e7eb;
 }
 
-/* Items */
 .menu-item{
   width:100%;
   text-align:left;
@@ -138,7 +131,6 @@ body{
 .menu-item:focus{ outline:none; box-shadow:var(--focus); }
 .menu-item:active{ transform:scale(.99); }
 
-/* Barre de titre avec bouton retour */
 .title-bar {
   display: flex;
   align-items: center;
@@ -171,8 +163,6 @@ body{
   box-shadow: var(--focus);
 }
 
-
-/* Réduction animations si demandé */
 @media (prefers-reduced-motion: reduce){
   *{animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important;}
 }
